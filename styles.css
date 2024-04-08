@@ -1,0 +1,98 @@
+body {
+   margin: 0px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    padding-bottom: 100px;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Happy Monkey', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo {
+    border-radius: 50%;
+    border:5px solid #EFB0C9;
+}
+
+#year, #date {
+    background: #EFB0C9;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+#year {
+    margin: 10px 0 -5px 0;
+}
+
+#date {
+    margin-bottom: 40px;
+}
+
+.description {
+    margin-bottom: 0;
+}
+
+.hover {
+    margin: 10px 0 10px 0;
+}
+
+.gift-img {
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 400px;
+    height: 400px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-image-cheers {
+    height: 200px;
+    
+}
+
+#gift-image-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-image-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-image-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-image-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-image-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#footer {
+    text-align: center;
+    border-top: 30px;
+}
+
+#footer h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a {
+    color: white;
+}
+
